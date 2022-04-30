@@ -1,24 +1,24 @@
 
 
-import 'package:json_annotation/json_annotation.dart';
+// import 'package:json_annotation/json_annotation.dart';
 
-part 'user.g.dart';
+// import 'data.dart';
+
+// part 'user.g.dart';
 
 
-@JsonSerializable()
+// @JsonSerializable()
 
-class User {
-  String name;
-  String email;
-  User({
-    required this.name,
-    required this.email,
-  });
+// class User {
+//  Data data;
+//   User({
+//     required this.data
+//   });
   
 
   
 
-  factory User.fromJson(Map<String, dynamic> map) =>_$UserFromJson(map);
+//   factory User.fromJson(Map<String, dynamic> map) =>_$UserFromJson(map);
 
-  Map<String,dynamic> toJson()=>_$UserToJson(this);
-}
+//   Map<String,dynamic> toJson()=>_$UserToJson(this);
+// }
